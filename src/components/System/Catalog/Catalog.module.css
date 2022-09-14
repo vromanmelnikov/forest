@@ -1,0 +1,36 @@
+.Catalog {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+    min-height: 66vh;
+}
+
+.Catalog > h2 {
+    /* text-align: center; */
+    margin: 0 auto;
+}
+
+.categories {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    justify-content: center;
+    /* align-items: center; */
+    background-color: #00533A;
+    flex-wrap: wrap ;
+}
+
+.categ_btn {
+    width: 30%;
+    font-size: 60%;
+    padding: 0.5rem;
+}
+
+.categ_btn:hover {
+    cursor: pointer;
+}

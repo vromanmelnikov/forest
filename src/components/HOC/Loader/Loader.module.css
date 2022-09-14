@@ -1,0 +1,20 @@
+.Loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 3rem;
+    height: 3rem;
+    animation: load 3s linear infinite;
+}
+
+@keyframes load {
+    0% {
+      transform: rotate(0deg)
+    }
+    100% {
+      transform: rotate(360deg)
+    }
+  }

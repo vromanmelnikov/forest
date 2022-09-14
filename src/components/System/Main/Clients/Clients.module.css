@@ -1,0 +1,36 @@
+.Clients_browser {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.block {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+}
+
+.item_browser {
+    height: 300px;
+    width: 300px;
+    background-color: #00533A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item_browser>img {
+    max-height: 96%;
+    max-width: 96%;
+}
+
+.button {
+    margin: 0 auto;
+}

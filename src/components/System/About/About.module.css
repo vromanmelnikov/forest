@@ -1,0 +1,40 @@
+.About {
+    min-height: 10px;
+    /* background-color: #00533A; */
+    /* margin-top: 1.5rem; */
+    padding-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.adress {
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.adress > a {
+    color: white
+}
+
+.adress > p {
+    margin: 0;
+}
+
+.YMap {
+    width: 90%;
+}
+.Map {
+    width: 100%;
+}
+
+.comments {
+    width: 90%;
+    margin: 0 auto;
+}

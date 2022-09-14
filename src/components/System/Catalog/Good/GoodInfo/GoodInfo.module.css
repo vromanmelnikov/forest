@@ -1,0 +1,160 @@
+.GoodInfo {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0%;
+    left: 0;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 998;
+}
+
+.block {
+    background-color: #003d26;
+    height: 92%;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    overflow-y: scroll;
+    position: relative;
+}
+
+.block>hr {
+    border-color: #F7F2EA;
+}
+
+.block>h2,
+.block>h3,
+.block>p {
+    color: #F7F2EA;
+}
+
+.block>button {
+    margin-top: 0.75rem;
+    /* background-color: rgba(0, 0, 0, 0); */
+    /* font-size: 1rem; */
+}
+
+.image {
+    margin-top: 1rem;
+    max-width: 60%;
+    max-height: 450px;
+}
+
+.image>img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.desc {
+    width: 90%;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.info_name,
+.info_value {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.info_name {
+    /* color: #87c248 */
+    text-align: center;
+    /* color: F7F2EA */
+}
+
+.info_value {
+    color: #F7F2EA;
+}
+
+.table_block {
+    background-color: #F7F2EA;
+    width: 80%;
+    display: flex;
+    overflow-y: scroll;
+    min-height: 200px;
+}
+
+.table_block>table {
+    width: 100%;
+}
+
+.red_point {}
+
+.buttons {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.share {
+    margin-top: 0 !important;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0.375rem;
+    /* border: 1px solid #003d26; */
+    border-radius: 50%;
+    background-color: #F7F2EA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color .5s;
+}
+
+.share:hover {
+    transition: background-color .5s;
+    background-color: #f7f2eac0;
+}
+
+.share>img {
+    margin-left: 0.25rem;
+    width: 90%;
+}
+
+.popover {
+    z-index: 100000 !important
+}
+
+@media (min-width: 1200px) {
+    
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+    
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    
+}
+
+@media (max-width: 767px) and (min-width: 0) {
+    .buttons {
+        margin-top: 0.5rem;
+        position:static !important;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .image {
+        margin-top: 0.3rem;
+    }
+}
+
+@media (max-width: 575px) and (min-width: 0px) {
+    
+}

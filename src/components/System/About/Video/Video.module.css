@@ -1,0 +1,12 @@
+.Video {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.frame {
+    width: 90%;
+    aspect-ratio: 16/9;
+}
